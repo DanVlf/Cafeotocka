@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="z-10">
         <HeroText />
       </div>
-        <div className="absolute bottom-10 z-20 md:hidden">
+        <div className="absolute bottom-36 z-20 md:hidden">
         <Swipe />
       </div>
     </div>
