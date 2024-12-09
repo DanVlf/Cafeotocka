@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-continuous {
+  animation: rotate 3s cubic-bezier(0.25, 0.1, 0.25, 1) infinite; /* Faster rotation with an impulsive easing */
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/public/fonts/Brandon_Grotesque_Bold.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

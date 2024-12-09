@@ -1,0 +1,56 @@
+category,name,price,description,allergens
+Káva,Espresso,50 CZK,Klasická káva, silná a intenzivní.,žádné
+Káva,Cappuccino,60 CZK,Espresso s mléčnou pěnou.,mléko
+Káva,Latte,65 CZK,Káva s hodně mléka a pěnou.,mléko
+Káva,Mocha,70 CZK,Káva s čokoládou a mléčnou pěnou.,mléko, čokoláda
+Káva,Americano,55 CZK,Espresso s horkou vodou.,žádné
+Káva,Flat White,75 CZK,Silná káva s jemně napěněným mlékem.,mléko
+Káva,Macchiato,60 CZK,Espresso s malým množstvím mléčné pěny.,mléko
+Káva,Affogato,80 CZK,Espresso s vanilkovou zmrzlinou.,mléko
+Káva,Irish Coffee,85 CZK,Espresso s irským whiskey a smetanou.,mléko, alkohol
+Nápoje,Čaj,40 CZK,Výběr černého nebo zeleného čaje.,žádné
+Nápoje,Fresh džusy,55 CZK,Čerstvě vymačkané ovoce dle sezóny.,žádné
+Nápoje,Limondáda,45 CZK,Osvěžující limonáda s citronem.,žádné
+Nápoje,Ice Tea,50 CZK,Chlazený čaj s ovocnou příchutí.,žádné
+Nápoje,Ledová káva,60 CZK,Studená káva s ledem a mlékem.,mléko
+Nápoje,Žeňšenový nápoj,65 CZK,Bylinný nápoj pro povzbuzení energie.,žádné
+Nápoje,Matcha Latte,70 CZK,Latte s japonským zeleným čajem Matcha.,mléko
+Nápoje,Kořeněné jablko,55 CZK,Kořeněný nápoj s jablky a skořicí.,žádné
+Nápoje,Teplý punč,80 CZK,Alkoholický nápoj s kořením a ovocem.,alkohol, ovoce
+Sladké,Koláče,40 CZK,Domácí ovocné koláče.,pšenice, mléko
+Sladké,Cukrovinky,35 CZK,Různé druhy cukrovinek.,ořechy, pšenice
+Sladké,Zákusky,60 CZK,Krémové zákusky dle denní nabídky.,vejce, mléko, pšenice
+Sladké,Dorty,90 CZK,Luxusní dorty podle denní nabídky.,mléko, vejce, pšenice
+Sladké,Koláčky,45 CZK,Sladké koláčky plněné ovocem.,mléko, pšenice
+Sladké,Donuty,50 CZK,Sladké donuty s polevou.,vejce, pšenice, mléko
+Sladké,Trdelník,55 CZK,Tradiční trdelník s cukrem a ořechy.,pšenice, ořechy
+Sladké,Sušenky,40 CZK,Domácí sušenky s čokoládou.,pšenice, čokoláda, mléko
+Slané,Chlebíčky,50 CZK,Různé druhy chlebíčků s čerstvými surovinami.,pšenice, vejce
+Slané,Sandwiches,65 CZK,Tradiční sendviče s masem a zeleninou.,pšenice, mléko
+Slané,Saláty,80 CZK,Čerstvé saláty dle sezóny.,žádné
+Slané,Wraps,75 CZK,Tradiční wraps s kuřecím masem a zeleninou.,pšenice, mléko
+Slané,Pizzy,120 CZK,Pizza s čerstvými ingrediencemi.,pšenice, mléko
+Slané,Quiche,85 CZK,Slaný koláč se zeleninou a sýrem.,vejce, mléko, pšenice
+Slané,Pečivo,40 CZK,Domácí pečivo v různých variantách.,pšenice
+Slané,Toast,45 CZK,Grilovaný toast s máslem a sýrem.,mléko, pšenice
+Slané,Plněné rohlíky,50 CZK,Plněné rohlíky s různými náplněmi.,pšenice
+Slané,Bruschetta,60 CZK,Chlebíček s rajčaty, česnekem a bazalkou.,pšenice, česnek
+Slané,Karbanátky,70 CZK,Masové karbanátky se zeleninou.,vejce
+Slané,Steaky,150 CZK,Grilované steaky dle výběru.,maso
+Slané,Chili con carne,90 CZK,Tradiční mexické jídlo s fazolemi a masem.,maso, pšenice
+Slané,Falafel,70 CZK,Vegetariánské kuličky s cizrny.,pšenice
+Slané,Lasagne,110 CZK,Tradiční lasagne se sýrem a rajčaty.,mléko, pšenice
+Slané,Smažený sýr,80 CZK,Smažený sýr s bramborami.,mléko
+Slané,Kuřecí křídla,100 CZK,Grilovaná kuřecí křídla s omáčkou.,maso
+Slané,Kuřecí prsa,110 CZK,Grilovaná kuřecí prsa s přílohou.,maso
+Slané,Rizoto,90 CZK,Italské rizoto s houbami a sýrem.,pšenice, mléko
+Slané,Paella,120 CZK,Španělská paella s mořskými plody.,mořské plody
+Slané,Frittata,80 CZK,Italská omeleta s různými ingrediencemi.,vejce
+Slané,Tofu,65 CZK,Grilované tofu se zeleninou.,žádné
+Slané,Hamburger,120 CZK,Hamburger s čerstvou zeleninou a omáčkou.,pšenice, maso
+Slané,Hranolky,50 CZK,Čerstvě smažené hranolky.,pšenice
+Slané,Smažené kuře,90 CZK,Smažené kuřecí kousky se zeleninou.,maso
+Slané,Vegetariánské burgery,100 CZK,Vegetariánské burgery se zeleninou.,pšenice
+Slané,Smažená zelenina,60 CZK,Smažená zelenina s bylinkami.,žádné
+Slané,Grilovaný losos,140 CZK,Grilovaný losos s rýží.,mořské plody
+Slané,Krůtí maso,100 CZK,Grilované krůtí maso s přílohou.,maso
