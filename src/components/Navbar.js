@@ -5,13 +5,16 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Nabídka', href: '#' },
-  { name: 'Galerie', href: '#' },
-  { name: 'O nás', href: '#' },
+  { name: 'Nabídka', href: '#menu' },
+  { name: 'O nás', href: '#about' },
 ]
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const handleLinkClick = () => {
+    setMobileMenuOpen(false) // Close the mobile menu when a link is clicked
+  }
 
   return (
     <header className="absolute inset-x-0 top-0 z-50">
@@ -38,13 +41,13 @@ export default function Navbar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-100">
+            <a key={item.name} href={item.href} className="text-sm font-semibold text-gray-100">
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm/6 font-semibold text-gray-100">
+          <a href="#" className="text-sm font-semibold text-gray-100">
           </a>
         </div>
       </nav>
@@ -56,7 +59,7 @@ export default function Navbar() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                src="/cafeotocka_black.png"
                 className="h-8 w-auto"
               />
             </a>
@@ -76,13 +79,13 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                    onClick={handleLinkClick} // Close the menu when the link is clicked
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
                   </a>
                 ))}
               </div>
-              
             </div>
           </div>
         </DialogPanel>

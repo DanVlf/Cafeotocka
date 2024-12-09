@@ -38,8 +38,8 @@ export default function Menu() {
   };
 
   return (
-    <div className="w-screen h-screen bg-gray-100 flex items-center justify-center">
-      <div className="w-full max-w-4xl h-[80vh] overflow-y-auto px-6 py-8">
+    <div  className="w-screen h-screen bg-gray-100 flex items-center justify-center">
+      <div className="w-full max-w-4xl h-[80vh] p overflow-y-auto px-6 py-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center">Menu</h1>
         <div className="space-y-6">
           {menu.map((category, index) => (
