@@ -12,10 +12,10 @@ export default function Hero() {
         className="absolute w-full h-full object-cover opacity-25" 
         alt="Background" 
       />
-      <div className="z-10">
+      <div className="z-10 ">
         <HeroText />
       </div>
-        <div className="absolute bottom-36 z-20 md:hidden">
+        <div className="absolute bottom-64 z-20 md:hidden">
         <Swipe />
       </div>
     </div>
