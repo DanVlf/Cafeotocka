@@ -1,5 +1,5 @@
 category,name,price,description,allergens
-Káva,Espresso,50 CZK,Klasická káva, silná a intenzivní.,žádné
+Káva,Espresso,50 ,Klasická káva, silná a intenzivní.,žádné
 Káva,Cappuccino,60 CZK,Espresso s mléčnou pěnou.,mléko
 Káva,Latte,65 CZK,Káva s hodně mléka a pěnou.,mléko
 Káva,Mocha,70 CZK,Káva s čokoládou a mléčnou pěnou.,mléko, čokoláda
@@ -7,7 +7,7 @@ Káva,Americano,55 CZK,Espresso s horkou vodou.,žádné
 Káva,Flat White,75 CZK,Silná káva s jemně napěněným mlékem.,mléko
 Káva,Macchiato,60 CZK,Espresso s malým množstvím mléčné pěny.,mléko
 Káva,Affogato,80 CZK,Espresso s vanilkovou zmrzlinou.,mléko
-Káva,Irish Coffee,85 CZK,Espresso s irským whiskey a smetanou.,mléko, alkohol
+Káva,Irish Coffee,85 CZK,Espresso s irským whiskey a smetanou.
 Nápoje,Čaj,40 CZK,Výběr černého nebo zeleného čaje.,žádné
 Nápoje,Fresh džusy,55 CZK,Čerstvě vymačkané ovoce dle sezóny.,žádné
 Nápoje,Limondáda,45 CZK,Osvěžující limonáda s citronem.,žádné
@@ -40,7 +40,7 @@ Slané,Steaky,150 CZK,Grilované steaky dle výběru.,maso
 Slané,Chili con carne,90 CZK,Tradiční mexické jídlo s fazolemi a masem.,maso, pšenice
 Slané,Falafel,70 CZK,Vegetariánské kuličky s cizrny.,pšenice
 Slané,Lasagne,110 CZK,Tradiční lasagne se sýrem a rajčaty.,mléko, pšenice
-Slané,Smažený sýr,80 CZK,Smažený sýr s bramborami.,mléko
+Slané,Smaženýsýr,80 CZK,Smažený sýr s bramborami.,mléko
 Slané,Kuřecí křídla,100 CZK,Grilovaná kuřecí křídla s omáčkou.,maso
 Slané,Kuřecí prsa,110 CZK,Grilovaná kuřecí prsa s přílohou.,maso
 Slané,Rizoto,90 CZK,Italské rizoto s houbami a sýrem.,pšenice, mléko
@@ -52,6 +52,7 @@ Slané,Hranolky,50 CZK,Čerstvě smažené hranolky.,pšenice
 Slané,Smažené kuře,90 CZK,Smažené kuřecí kousky se zeleninou.,maso
 Slané,Vegetariánské burgery,100 CZK,Vegetariánské burgery se zeleninou.,pšenice
 Slané,Smažená zelenina,60 CZK,Smažená zelenina s bylinkami.,žádné
-Slané,Grilovaný losos,140 CZK,Grilovaný losos s rýží.,mořské plody
+Slané,Grilovaný losos,140 ,Grilovaný losos s rýží.,mořské plody
 Slané,Krůtí maso,100 CZK,Grilované krůtí maso s přílohou.,maso
+Zajímave
 

@@ -14,11 +14,11 @@ export default function Menu() {
       complete: (result) => {
         // Transform CSV data into categories
         const categories = result.data.reduce((acc, item) => {
-          const { category, name, price, description, allergens } = item;
+          const { category, name, price, description} = item;
           if (!acc[category]) {
             acc[category] = { category, items: [] };
           }
-          acc[category].items.push({ name, price, description, allergens });
+          acc[category].items.push({ name, price, description });
           return acc;
         }, {});
         
@@ -38,6 +38,7 @@ export default function Menu() {
   };
 
   return (
+    <div className=''>
     <div  className="w-screen h-screen bg-gray-100 flex items-center justify-center">
       <div className="w-full max-w-4xl h-[80vh] p overflow-y-auto px-6 py-8">
         <h1 className="text-3xl font-bold mb-6 text-center">Naše nabídka</h1>
@@ -79,7 +80,6 @@ export default function Menu() {
                         </div>
                         <div className="col-span-2">
                           <div className="text-sm text-gray-500">{item.description}</div>
-                          <div className="text-xs text-gray-400">Alergeny: {item.allergens}</div>
                         </div>
                       </li>
                     ))}
@@ -90,6 +90,7 @@ export default function Menu() {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 }

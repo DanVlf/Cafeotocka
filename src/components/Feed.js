@@ -49,7 +49,7 @@ export default function NewsSection() {
   const currentNews = news[currentIndex];
 
   return (
-    <div className="bg-gray-200 min-h-[40rem] xl:h-[80vh]">
+    <div className="bg-gray-200 xl:min-h-[40rem] xl:h-[80vh]">
       <div className="flex flex-col md:flex-row items-center h-full" {...swipeHandlers}>
         <div className="w-full sm:w-1/2 h-auto flex-shrink-0 flex items-center justify-center p-10">
           <div className="w-full h-auto aspect-w-16 aspect-h-9">
@@ -67,7 +67,7 @@ export default function NewsSection() {
           <p className="mt-4 text-md text-gray-600">{currentNews.description}</p>
 
           {/* Mobile and tablet: Dots and swipe */}
-          <div className="mt-6 flex space-x-4 justify-center sm:justify-start md:hidden">
+          <div className="mt-24 flex space-x-4 justify-center xl:justify-start xl:hidden">
             <div className="flex space-x-2 text-gray-600">
               {/* Dots Indicator */}
               {news.map((_, index) => (
@@ -82,18 +82,18 @@ export default function NewsSection() {
           </div>
 
           {/* Desktop: Arrows */}
-          <div className="mt-6 flex space-x-4 justify-center sm:justify-start hidden md:flex">
+          <div className="mt-6 flex space-x-4 justify-center sm:justify-start hidden xl:flex">
             <button
               onClick={handlePrev}
-              className="px-4 py-2 bg-gray-300 text-white rounded-lg hover:bg-gray-700 flex items-center justify-center"
+              className="px-4 py-2 bg-gray-300 text-white rounded-lg transition hover:bg-gray-700 flex items-center justify-center"
             >
-              <FaArrowLeft className="text-xl" />
+              <FaArrowLeft className="text-md" />
             </button>
             <button
               onClick={handleNext}
-              className="px-4 py-2 bg-gray-300 text-white rounded-lg hover:bg-gray-700 flex items-center justify-center"
+              className="px-4 py-2 bg-gray-300 text-white rounded-lg transition hover:bg-gray-700 flex items-center justify-center"
             >
-              <FaArrowRight className="text-xl" />
+              <FaArrowRight className="text-md" />
             </button>
           </div>
         </div>
