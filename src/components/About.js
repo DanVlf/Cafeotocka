@@ -3,16 +3,16 @@ import Gallery from './Gallery'; // Import the gallery component
 
 export default function AboutPage() {
   return (
-    <div className="w-full flex flex-col min-[1500px]:flex-row bg-gray-200 px-5 sm:px-10 md:px-20 py-10 justify-center space-y-8 lg:space-y-0">
+    <div className="w-full flex flex-col lg:flex-row bg-gray-200 px-5 sm:px-10 md:px-20 py-10 justify-center items-center space-y-8 lg:space-y-0">
       {/* Left: Gallery */}
-      <div className="w-full h-full flex justify-center items-center lg:pr-5">
+      <div className="w-full h-full flex justify-center items-center lg:w-1/2 lg:pr-5">
         <div className="w-full h-auto max-w-full flex justify-center items-center">
           <Gallery />
         </div>
       </div>
 
       {/* Right: Text and Map */}
-      <div className="w-full h-full flex flex-col justify-start items-start space-y-8">
+      <div className="w-full h-full flex flex-col justify-start items-center lg:items-start lg:w-1/2 space-y-8">
         <div className="w-full text-left px-5 sm:px-10 lg:px-0">
           <h2 className="text-4xl sm:text-3xl font-bold text-gray-800 mb-4">Kde nás najdete</h2>
           <p className="text-base text-sm text-gray-600 leading-relaxed">

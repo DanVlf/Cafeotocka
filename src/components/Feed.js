@@ -49,7 +49,7 @@ export default function NewsSection() {
   const currentNews = news[currentIndex];
 
   return (
-    <div className="bg-gray-200 h-auto xl:h-[80vh]">
+    <div className="bg-gray-200 min-h-[40rem] xl:h-[80vh]">
       <div className="flex flex-col md:flex-row items-center h-full" {...swipeHandlers}>
         <div className="w-full sm:w-1/2 h-auto flex-shrink-0 flex items-center justify-center p-10">
           <div className="w-full h-auto aspect-w-16 aspect-h-9">
