@@ -6,7 +6,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Nabídka', href: '#menu' },
+  { name: 'Aktuality', href: '#feed' },
   { name: 'O nás', href: '#about' },
+
 ]
 
 export default function Navbar() {
