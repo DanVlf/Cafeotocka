@@ -10,7 +10,7 @@ export default function HeroText() {
   return (
     <div className="text-center mb-16 sm:mb-24">
       <h1 className="text-5xl sm:text-7xl lg:text-8xl font-custom font-semibold text-white">
-        Café 
+        café 
         <span className={`inline-block ${rotate ? 'rotate-continuous' : ''} mx-2`}>
           <img 
             src="/cafeotocka.png" 
