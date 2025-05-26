@@ -20,7 +20,7 @@ export default function AboutPage() {
             <a href="tel:+420775332206" className="font-bold text-gray-800"> 775 332 206</a>.
           </p>
           <p className="text-base text-sm text-gray-600 leading-relaxed mt-2">
-            OTEVÍRACÍ DOBA: PO – NE 8:00 – 19:00
+            OTEVÍRACÍ DOBA: PO – NE 8:00 – 18:00
           </p>
         </div>
 
