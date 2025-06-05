@@ -52,7 +52,7 @@ export default function NewsSection() {
     <div className="bg-gray-200 min-h-[40rem] sm:min-h-0 xl:h-[80vh] relative">
       <div className="flex flex-col md:flex-row items-center h-full" {...swipeHandlers}>
         <div className="w-full sm:w-1/2 h-auto flex-shrink-0 flex items-center justify-center p-10">
-          <div className="w-full h-auto aspect-w-16 aspect-h-9">
+          <div className="w-full max-w-[600px] max-h-[500px]">
             <img
               src={currentNews.image}
               alt={currentNews.title}
