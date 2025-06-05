@@ -7,7 +7,7 @@ export default function Menu() {
 
   useEffect(() => {
     // Parse the CSV file
-    Papa.parse('/menu2.csv', {
+    Papa.parse('/menu3.csv', {
       download: true,
       header: true,
       skipEmptyLines: true,
