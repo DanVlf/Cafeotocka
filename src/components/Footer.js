@@ -11,7 +11,7 @@ const Footer = () => {
         
         {/* Copyright text */}
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <p>&copy; 2024 Café Otočka. Všechna práva vyhrazena.</p>
+          <p>&copy; 2025 Café Otočka. Všechna práva vyhrazena.</p>
         </div>
         
         {/* Social Media Links */}
