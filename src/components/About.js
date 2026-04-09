@@ -15,10 +15,6 @@ export default function AboutPage() {
       <div className="w-full h-full flex flex-col justify-start items-center lg:items-start lg:w-1/2 space-y-8">
         <div className="w-full text-left px-5 sm:px-10 lg:px-0">
           <h2 className="text-4xl sm:text-3xl font-bold text-gray-800 mb-4">Kde nás najdete</h2>
-          <p className="text-base text-sm text-gray-600 leading-relaxed">
-            V případě zájmu nás neváhejte kontaktovat na telefonním čísle: 
-            <a href="tel:+420775332206" className="font-bold text-gray-800"> 775 332 206</a>.
-          </p>
           <p className="text-base text-sm text-gray-600 leading-relaxed mt-2">
             OTEVÍRACÍ DOBA: PO – NE 8:00 – 18:00
           </p>
