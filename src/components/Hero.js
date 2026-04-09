@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/alt-text */
-import Navbar from './Navbar';
 import HeroText from './Heroname.js';
 import Swipe from './Swipe.js';
 

@@ -1,43 +1,38 @@
 import { useState, useEffect } from "react";
-import Papa from "papaparse"; // Importujeme knihovnu PapaParse
-import { useSwipeable } from "react-swipeable"; // Importujeme knihovnu pro swipe
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa"; // Import arrow icons from react-icons
+import Papa from "papaparse";
+import { useSwipeable } from "react-swipeable";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function NewsSection() {
   const [news, setNews] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [swipeDirection, setSwipeDirection] = useState(null);
 
   // Načítání novinek z CSV souboru
   useEffect(() => {
     Papa.parse("news.csv", {
-      download: true, // Stažení souboru
-      header: true, // Použití první řádky jako hlavičky
-      dynamicTyping: true, // Automatické přetypování
+      download: true,
+      header: true,
+      dynamicTyping: true,
       complete: (result) => {
-        setNews(result.data); // Uložení novinek do stavu
+        setNews(result.data);
       },
     });
   }, []);
 
   const handlePrev = () => {
-    setSwipeDirection('right');
     setCurrentIndex((prev) => (prev > 0 ? prev - 1 : news.length - 1));
   };
 
   const handleNext = () => {
-    setSwipeDirection('left');
     setCurrentIndex((prev) => (prev < news.length - 1 ? prev + 1 : 0));
   };
 
-  // Always call the hook to prevent the "Rendered more hooks" issue
   const swipeHandlers = useSwipeable({
-    onSwipedLeft: handleNext, // Pohyb vlevo = další novinka
-    onSwipedRight: handlePrev, // Pohyb vpravo = předchozí novinka
+    onSwipedLeft: handleNext,
+    onSwipedRight: handlePrev,
     preventDefaultTouchmoveEvent: true,
   });
 
-  // Zajištění, že když ještě nejsou novinky načteny, nebudeme vykreslovat chyby
   if (news.length === 0) {
     return (
       <div className="flex justify-center items-center h-full">
@@ -87,7 +82,6 @@ export default function NewsSection() {
       {/* Mobile and tablet: Dots and swipe */}
       <div className="absolute bottom-8 w-full flex justify-center md:hidden">
         <div className="flex space-x-2 text-gray-600 ">
-          {/* Dots Indicator */}
           {news.map((_, index) => (
             <div
               key={index}
